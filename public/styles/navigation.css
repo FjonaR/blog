@@ -1,0 +1,10 @@
+.navigation {
+    width: 100%;
+    background-color: lightblue;
+    padding: 8px 100px; 
+}
+
+.navigation-item {
+    text-decoration-line: none;
+    color: white;
+}
