@@ -1,0 +1,13 @@
+<%- include("navigation.ejs") %> <% if (post) { %>
+<h1><%= post.title %></h1>
+<img src="<%= post.imageUrl %>" alt="<%= post.title %>" width="600" />
+<p><%= post.content %></p>
+<p><%= post.readTime %></p>
+<small><%= post.type %></small>
+<small>Posted on: <%= post.createdDate %></small>
+<% } else { %>
+<h1>No post found</h1>
+<% } %>
+
+<a href="/">Back to Home</a>
+<%- include("footer.ejs") %>
