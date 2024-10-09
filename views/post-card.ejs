@@ -1,3 +1,8 @@
-<img src="<%= posts[0].imageUrl %>" alt="pasta image">
-<h1><%= posts[0].title %></h1>
-<h3><%= posts[0].content %></h3>
+<div class="post-card">
+    <img src="<%= post.imageUrl %>" alt="<%= post.title %>" width="200" />
+    <h3><a href="/posts/<%= post.id %>"><%= post.title %></a></h3>
+    <p><%= post.content %></p>
+    <p><%= post.readTime %></p>
+    <small><%= post.type %></small>
+    <small><%= post.createdDate %></small>
+  </div>
