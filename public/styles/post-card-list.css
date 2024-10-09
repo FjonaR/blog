@@ -1,0 +1,6 @@
+.post-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 8px 100px;
+}
